@@ -30,10 +30,10 @@ Genera datos artificiales para un péndulo simple en función de los parámetros
 
 Nombre del archivo: `05_pendulum_pinn_discovery.ipynb`
 
-Genera datos artificiales para un péndulo simple en función de los parámetros aportados por el usuario. Entrena una red neuronal informada por la física y un modelo de aprendizaje automático con el objetivo de descubrir cuáles son las ecuaciones que gobiernan los datos artificialmente generados, y compara los resultados entre los modelos y frente a los datos reales. Esto lo hace también generando ruido a los datos generados artificialmente. Almacena los resultados de los modelos, dado que su ejecución es lenta.
+Genera datos artificiales para un péndulo simple en función de los parámetros aportados por el usuario. Entrena una red neuronal informada por la física y un modelo de aprendizaje automático con el objetivo de descubrir cuáles son las ecuaciones que gobiernan los datos artificialmente generados, y compara los resultados entre los modelos y frente a los datos reales. Esto lo hace también generando ruido a los datos generados artificialmente. Almacena los resultados de los modelos en la carpeta de `discovery_pickles`, dado que su ejecución es lenta.
 
 ## Estimación de parámetros
 
 Nombre del archivo: `06_pendulum_pinn_estimate.ipynb`
 
-Genera datos artificiales para un péndulo simple en función de los parámetros aportados por el usuario. Entrena una red neuronal informada por la física y un modelo de aprendizaje automático con el objetivo de estimar los parámetros de los datos artificialmente generados, y compara los resultados entre los modelos y frente a los datos reales. Esto lo hace también generando ruido a los datos generados artificialmente. Almacena los resultados de los modelos, dado que su ejecución es lenta.
+Genera datos artificiales para un péndulo simple en función de los parámetros aportados por el usuario. Entrena una red neuronal informada por la física y un modelo de aprendizaje automático con el objetivo de estimar los parámetros de los datos artificialmente generados, y compara los resultados entre los modelos y frente a los datos reales. Esto lo hace también generando ruido a los datos generados artificialmente. Almacena los resultados de los modelos en la carpeta de `estimation_pickles`, dado que su ejecución es lenta.
